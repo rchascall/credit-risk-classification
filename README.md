@@ -57,4 +57,5 @@ The confusion matrices were also used to show the performance of the models as f
 
 
 ## Conclusion
-The results show that resampling the data improved the performance of the model as it relates to predicting the high-risk loans.  However, false positives did result in a slight reduction of accuracy as it relates to the healthy loans.  Even so, the model using the resampled data clearly performed better.  
+The results show that resampling the data improved the performance of the model as it relates to predicting the high-risk loans.  However, false positives did result in a slight reduction of accuracy as it relates to the healthy loans.  Even so, the model using the resampled data clearly performed better. 
+. 
