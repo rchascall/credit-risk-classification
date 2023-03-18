@@ -13,7 +13,7 @@ The following techniques were used to train and evaluate the model:
 
 Two classification reports were generated to evaluate the performance of the model, one using the original data and the other using resampled data. The classification reports are as follows:
 
-### Original Data Classification Report
+#### Original Data Classification Report
 | .        | precision | recall | f1-score | support |
 | -------- | ----------| -------| ---------|---------|
 |        0 | 1.00      | 1.00   | 1.00     | 18759   |
@@ -23,7 +23,7 @@ Two classification reports were generated to evaluate the performance of the mod
 | macro avg| 0.94      | 0.94   | 0.94     | 19384   |
 | weighted | 0.99      | 0.99   | 0.99     | 19384   |
 
-### Resampled Data Classification Report
+#### Resampled Data Classification Report
 | .        | precision | recall | f1-score | support |
 | -------- | ----------| -------| ---------|---------|
 |        0 | 1.00      | 1.00   | 1.00     | 18759   |
@@ -35,8 +35,7 @@ Two classification reports were generated to evaluate the performance of the mod
 
 The confusion matrices were also used to show the performance of the models as follows:
 
-### Original Data Confusion Matrix
-|----------|-------------|----------- |
+#### Original Data Confusion Matrix
 |          | Actual Pos  | Actual Neg |
 |----------| ------------|------------|
 | Predicted| 18679       | 80         |
@@ -46,8 +45,7 @@ The confusion matrices were also used to show the performance of the models as f
 | Neg      |             |            |
 |----------|-------------|------------|         
 
-### Resampled Data Confusion Matrix
-|----------|-------------|----------- |
+#### Resampled Data Confusion Matrix
 |          | Actual Pos  | Actual Neg |
 |----------| ------------|------------|
 | Predicted| 18668       | 91         |
